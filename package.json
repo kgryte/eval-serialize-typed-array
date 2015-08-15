@@ -30,7 +30,7 @@
     "eval",
     "evil",
     "serialize",
-    "typed array",
+    "typed-array",
     "typed",
     "array",
     "tostring",
