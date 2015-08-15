@@ -31,13 +31,17 @@
     "evil",
     "serialize",
     "typed array",
+    "typed",
+    "array",
     "tostring",
     "string"
   ],
   "bugs": {
     "url": "https://github.com/kgryte/eval-serialize-typed array/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "validate.io-typed-array": "^1.0.0"
+  },
   "devDependencies": {
     "chai": "3.x.x",
     "codecov.io": "^0.1.5",

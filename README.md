@@ -2,7 +2,7 @@ Typed Array Serialization
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> Serializes a [typed array]() for dynamic code evaluation.
+> Serializes a [typed array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) for dynamic code evaluation.
 
 
 ## Installation
@@ -20,7 +20,7 @@ var serialize = require( 'eval-serialize-typed-array' );
 
 #### serialize( value )
 
-Serializes a [typed array]() for dynamic code evaluation.
+Serializes a [`typed array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) for dynamic code evaluation.
 
 ``` javascript
 var deepEqual = require( 'deep-equal' );
@@ -40,7 +40,7 @@ var bool = deepEqual( arr1, arr2 );
 
 #### serialize.raw( arr )
 
-Serializes a [typed array]() without performing type checking.
+Serializes a [`typed array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) without performing type checking.
 
 ``` javascript
 try {
@@ -66,7 +66,6 @@ var serialize = require( 'eval-serialize-typed-array' );
 */
 function create( arr ) {
 	var f = '';
-
 	f += 'return function fill( len ) {';
 	f += 'var arr = new Array( len );';
 	f += 'for ( var i = 0; i < len; i++ ) {';
