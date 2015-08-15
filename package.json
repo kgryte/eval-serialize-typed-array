@@ -20,7 +20,7 @@
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "git://github.com/kgryte/eval-serialize-typed array.git"
+    "url": "git://github.com/kgryte/eval-serialize-typed-array.git"
   },
   "keywords": [
     "utils",
@@ -37,7 +37,7 @@
     "string"
   ],
   "bugs": {
-    "url": "https://github.com/kgryte/eval-serialize-typed array/issues"
+    "url": "https://github.com/kgryte/eval-serialize-typed-array/issues"
   },
   "dependencies": {
     "validate.io-typed-array": "^1.0.0"
