@@ -1,6 +1,6 @@
 {
   "name": "eval-serialize-typed-array",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Serializes a typed array for dynamic code evaluation.",
   "author": {
     "name": "Athan Reines",
