@@ -53,15 +53,15 @@ describe( 'serialize', function tests() {
 		out = serialize( arr );
 
 		assert.strictEqual( out, 'new Float32Array([0,0,0,0])' );
-		assert.deepEqual( arr, eval( out ) );
 		assert.strictEqual( eval( out ).constructor.name, 'Float32Array' );
+		assert.deepEqual( arr, eval( out ) );
 
 		arr = new Uint8ClampedArray( [1,2,3,4,5] );
 		out = serialize( arr );
 
 		assert.strictEqual( out, 'new Uint8ClampedArray([1,2,3,4,5])' );
-		assert.deepEqual( arr, eval( out ) );
 		assert.strictEqual( eval( out ).constructor.name, 'Uint8ClampedArray' );
+		assert.deepEqual( arr, eval( out ) );
 	});
 
 });
